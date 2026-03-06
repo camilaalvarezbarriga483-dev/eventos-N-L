@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos N&L</title>
+
+    <!-- Icono de WhatsApp (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background-color: #000000;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            margin-left: 25px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar ul li a:hover {
+            color: #257fd3;
+        }
+
+        /* SECCIÓN CONTACTO */
+        .contacto {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: white;
+        }
+
+        .contacto h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .contacto p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        /* BOTÓN WHATSAPP */
+        .btn-whatsapp {
+            margin-top: 30px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 15px 30px;
+            background-color: #25D366;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: 0.3s;
+        }
+
+        .btn-whatsapp i {
+            font-size: 24px;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #1ebc59;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Eventos N&L</div>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="pack.html">PACK</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTACTO -->
+    <section class="contacto" id="contacto">
+        <h2>Contáctanos por WhatsApp</h2>
+        <p>Estamos listos para ayudarte a organizar tu evento ideal</p>
+
+        <!-- CAMBIA EL NÚMERO -->
+        <a href="https://wa.me/59160967744"
+           target="_blank"
+           class="btn-whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            Escríbenos por WhatsApp
+        </a>
+    </section>
+
+</body>
+</html>
